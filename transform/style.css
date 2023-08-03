@@ -1,0 +1,210 @@
+.telephon {
+    background-image: url(./IMGS/pngwing.com\ \(2\).png);
+    width: 260px;
+    height: 550px;
+    background-size: cover;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 700px;
+}
+.telephon__header {
+    transform: translateY(15px);
+    width: 75%; display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    transform: translateY(40px);
+    border-bottom: 2px solid black;
+    height: 25px;
+}
+.header__icon {
+}
+
+.fa-bars {
+    transition: 0.3s;
+}
+.fa-bars:hover{
+    transform: scale(1.5);
+    margin-left: 4px;
+}
+.fa-cart-shopping {
+    transition: 0.3s;
+
+}
+.fa-cart-shopping:hover{
+    transform: scale(1.5);
+    margin-right: 2px;
+}
+.telephon__main {
+    width: 75%;
+    height: 230px;
+    margin-bottom: 40px;
+
+
+}
+.telephon__block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    height: 80%;
+    align-items: center;   
+    background-color: #b07753;
+    border-radius: 25px;
+
+}
+.telephon__block__shirt {
+    width: 70%;
+    cursor: pointer;
+    transition: 0.7s;
+    height: 70%;
+
+    /* transform: translateY(200px); рухає по вказаній осі */
+}
+.telephon__block__shirt:hover {
+    /*  transform: scale();   /* збільшення чи зменшення єлементи вимірується в одиницях  */
+     transform: rotate(360deg);   /* вертить обьєкт як твою мам */
+    /*transform: skew(120deg); /* розтягуэ */   
+    
+
+}
+.telephon__squares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: center;
+    width: 100%; 
+    height: 20%;
+    margin: 10px auto;
+}
+.telephon__squares__arrows-left {
+    transition: 0.3s;
+}
+.telephon__squares__arrows-left:hover{
+    transform: scale(1.8);
+}
+.telephon__squares__block {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.telephon__squares__arrows-right {
+    transition: 0.3s;
+}
+.telephon__squares__arrows-right:hover   {
+    transform: scale(1.8);
+}
+.telephon-line {
+}
+.line__inside {
+}
+.telephon-footer {
+    transform: translateY(-45px);
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__block-2 {
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.footer__block-circle_2 {
+
+}
+.telephon__button {
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: #b07753;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+.telephon__button:hover {
+    transform: scale(1.2);
+}
+.footer_icon {
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+.footer_icon:hover{
+    transform: scale(1.6);
+}
+.fa-solid-fa-shirt{
+    transform: scale(1.5);
+}
+.telephon__squares__block-5{
+    background-color: rgba(83, 78, 18, 0.803);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.telephon__squares__block-4{
+    background-color: rgba(14, 73, 183, 0.803);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.telephon__squares__block-3{
+    background-color: rgba(118, 8, 8, 0.803);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.telephon__squares__block-2{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.telephon__squares__block-1{
+    background-color: rgba(28, 29, 83, 0.803);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.);
+}
+.shirts_box_box {
+    border: 1px solid #000;
+    width: 260px;
+    height: 550px;
+}
